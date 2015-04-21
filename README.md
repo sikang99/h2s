@@ -1,6 +1,6 @@
-# snusnu [![Build Status](https://travis-ci.org/xyproto/snusnu.svg?branch=master)](https://travis-ci.org/xyproto/snusnu)
+# h2s
 
-Simple HTTP/2 server, for serving the files in a given directory.
+Simple HTTP/2 test server, for serving the files in a given directory.
 
 
 Features and limitations
@@ -17,7 +17,7 @@ Features and limitations
 Usage
 -----
 
-`snusnu [directory] [host:port] [certfile] [keyfile]`
+`h2s [directory] [host:port] [certfile] [keyfile]`
 
 `host:port` can be just `:port` for localhost.
 
@@ -26,25 +26,26 @@ Examples
 
 Share the current directory as https://localhost:3000/
 
-`snusnu . :3000`
+`h2s . :3000`
 
 ---
 
-Share a single file as the main page at https://localhost/. This will make snusnu listen to port 443, which may require more permissions.
+Share a single file as the main page at https://localhost/. This will make h2s listen to port 443, which may require more permissions.
 
-`./snusnu README.md`
+`./h2s README.md`
 
 Screenshot
 ----------
 
 Old screenshot. The new design is cleaner.
 
-<img src="https://raw.githubusercontent.com/xyproto/snusnu/master/img/snusnu.png">
+<img src="https://raw.githubusercontent.com/sikang99/h2s/img/spdy-to-http2.png">
 
 General information
 -------------------
 
-* Version: 0.3
-* License: MIT
-* Alexander F Rødseth
+
+Reference
+---------
+
 
