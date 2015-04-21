@@ -29,7 +29,7 @@ func main() {
 	flag.Parse()
 
 	path := "."
-	addr := ":3000" //addr := ":443"
+	addr := ":8443" //addr := ":443"
 	cert := "cert.pem"
 	key := "key.pem"
 

@@ -5,7 +5,7 @@ PROGRAM=h2s
 EDITOR=vim
 
 edit e:
-	$(EDITOR) main.go
+	$(EDITOR) $(PROGRAM).go
 
 readme md:
 	$(EDITOR) README.md
@@ -18,7 +18,7 @@ run r:
 	./$(PROGRAM)
 
 test t:
-	./$(PROGRAM)
+	curl -v -s --insecure https://localhost:8443 -o /dev/null
 
 rebuild:
 	rm -f ./$(PROGRAM)
@@ -40,7 +40,7 @@ git-hub gh:
 
 git-update gu:
 	git init
-	git add README.md Makefile $(PROGRAM).go img/
+	git add README.md Makefile *.go img/
 	git commit -m "image added"
 	git push -u https://sikang99@github.com/sikang99/$(PROGRAM) master
 
@@ -50,7 +50,7 @@ git-status gs:
 
 git-origin go:
 	git init
-	git add README.md Makefile $(PROGRAM).go
+	git add README.md Makefile *.go
 	git commit -m "start to code"
 	git remote add origin https://sikang99@github.com/sikang99/$(PROGRAM)
 	git push -u origin master
