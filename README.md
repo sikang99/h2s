@@ -37,7 +37,7 @@ Share a single file as the main page at https://localhost/. This will make h2s l
 Image
 ------
 
-<img src="https://raw.githubusercontent.com/sikang99/h2s/img/spdy-to-http2.png">
+<img src="https://raw.githubusercontent.com/sikang99/h2s/master/img/spdy-to-http2.png">
 
 General information
 -------------------
