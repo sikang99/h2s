@@ -34,10 +34,8 @@ Share a single file as the main page at https://localhost/. This will make h2s l
 
 `./h2s README.md`
 
-Screenshot
-----------
-
-Old screenshot. The new design is cleaner.
+Image
+------
 
 <img src="https://raw.githubusercontent.com/sikang99/h2s/img/spdy-to-http2.png">
 
