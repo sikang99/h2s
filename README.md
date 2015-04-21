@@ -21,9 +21,9 @@ Simple HTTP/2 test server, for serving the files in a given directory.
 
 ### Examples
 
-Share the current directory as https://localhost:3000/
+Share the current directory as https://localhost:8443/
 
-`h2s . :3000`
+`h2s . :8443`
 
 
 Share a single file as the main page at https://localhost/. This will make h2s listen to port 443, which may require more permissions.
