@@ -51,7 +51,7 @@ git-status gs:
 git-origin go:
 	git init
 	git add README.md Makefile $(PROGRAM).go
-	git commit -m "git test and update Makefile"
+	git commit -m "start to code"
 	git remote add origin https://sikang99@github.com/sikang99/$(PROGRAM)
 	git push -u origin master
 
