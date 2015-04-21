@@ -45,5 +45,6 @@ General information
 
 Reference
 ---------
+- [xyproto/snusnu](https://github.com/xyproto/snusnu) - HTTP/2 web server for static files
 
 
