@@ -40,8 +40,8 @@ git-hub gh:
 
 git-update gu:
 	git init
-	git add README.md Makefile $(PROGRAM).go
-	git commit -m "git test and update Makefile"
+	git add README.md Makefile $(PROGRAM).go img/
+	git commit -m "image added"
 	git push -u https://sikang99@github.com/sikang99/$(PROGRAM) master
 
 git-status gs:
